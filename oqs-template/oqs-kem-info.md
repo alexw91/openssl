@@ -1,5 +1,11 @@
 | Family         | Implementation Version   | Variant         |   Claimed NIST Level | PQ-only Code Point   | Hybrid Elliptic Curve   | Hybrid Code Point   |
 |:---------------|:-------------------------|:----------------|---------------------:|:---------------------|:------------------------|:--------------------|
+| SIKE           | NIST Round 3 submission  | sikep434        |                    1 | 0x0235               | x25519                  | 0x2F35              |
+| SIKE           | NIST Round 3 submission  | sikep434        |                    1 | 0x0236               | secp256_r1              | 0x2F36              |
+| BIKE           | 4.1                      | bike1l1         |                    1 | 0x0237               | x25519                  | 0x2F37              |
+| BIKE           | 4.1                      | bike1l1         |                    1 | 0x0238               | secp256_r1              | 0x2F38              |
+| CRYSTALS-Kyber | NIST Round 3 submission  | kyber512        |                    1 | 0x0239               | x25519                  | 0x2F39              |
+| CRYSTALS-Kyber | NIST Round 3 submission  | kyber512        |                    1 | 0x023A               | secp256_r1              | 0x2F3A              |
 | BIKE           | 3.2                      | bike1l1cpa      |                    1 | 0x0206               | secp256_r1              | 0x2F06              |
 | BIKE           | 3.2                      | bike1l3cpa      |                    3 | 0x0207               | secp384_r1              | 0x2F07              |
 | BIKE           | 3.2                      | bike1l1fo       |                    1 | 0x0223               | x25519                  | 0x2F28              |
